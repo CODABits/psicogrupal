@@ -36,6 +36,10 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+html {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%20shadow)" x="0" y="14">🛸</text></svg>')  15 0, auto
+}
+
 *,
 *::before,
 *::after {
@@ -10182,6 +10186,3 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 0.5rem;
 }
 
-html {
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%20shadow)" x="0" y="14">🛸</text></svg>')  15 0, auto
-}
